@@ -1,0 +1,124 @@
+/*Text Formatting with CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+body{
+    padding: 40px;
+    font-family: Georgia, Times, serif;
+    color: #373737;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 10px 0;
+    font-family: Helvetica, Arial, sans-serif;
+    
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3.6em;   /*3.6 times the base font size */
+} 
+
+h2{
+    font-size: 2.6em;
+}
+
+h3{
+    font-size: 1.6em;
+    letter-spacing: -1px;
+    text-indent: 80px;
+    line-height: .3;
+}
+
+span{
+    text-decoration: line-through;
+}
+
+em{
+    text-transform: capitalize;
+}
+
+strong{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*CSS Borders Lecture*/
+
+.border-box{
+    background: #fc3;
+    margin: 0 0 20px;
+    padding: 40px;
+    width:320px;
+    text-align: center;
+}
+
+#box1{ border: solid 1px black; }
+#box2{ border: dashed 1px black; }
+#box3{ border: dotted 1px black; }
+#box4{ border: double 3px black; }
+#box5{ border: solid 3px black; }
+#box6{ border: dashed 3px black; }
+#box7{ border: dotted 3px black; }
+#box8{ border: double 6px black; }
+
+
+/*Styling Links Lecture*/
+
+#styling-links{
+    background: #333;
+}
+
+#styling-links #container{
+    background: white;
+    text-align: center;
+    width: 640px;
+    margin: 0 auto;
+    padding: 40px;    
+}
+
+
+a{
+    display: inline-block;
+}
+
+/* unvisited */
+a:link{
+    color: #fc3;
+}
+
+/* visited */
+a:visited{
+    color: #fc3;
+}
+
+/* hovered / mouse-over */
+a:hover{
+    color: aqua;
+}
+
+/* active /mouse-down */
+a:active{
+    color: black;
+}
+
+a#link-1:link{
+    background: #333;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a#link-1:hover{
+    background: #f3c;
+    color: white;
+}
+
+a#link-1:active{
+    background: #777; 
+}
